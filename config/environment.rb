@@ -1,5 +1,8 @@
 require 'bundler/setup'
 require_relative 'api_key'
+require 'yelp/fusion'
+
+# client = Yelp::Fusion::Client.new(YOUR_API_KEY)
 
 Bundler.require
 
